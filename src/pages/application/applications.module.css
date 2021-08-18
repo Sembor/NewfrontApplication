@@ -1,0 +1,43 @@
+.alertColor {
+    color: red;
+}
+
+.form {
+    margin: 2rem auto;
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.radioDescription {
+    padding-left: 23px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.radioDiv {
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.radioDivChecked {
+    border: 1px solid royalblue;
+}
+
+.radioLabel {
+    margin-top: 0px;
+}
+
+.center1 {
+    display: flex;
+    justify-content: center;
+}
+.center2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
