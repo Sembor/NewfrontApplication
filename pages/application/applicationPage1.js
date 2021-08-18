@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useRef, useState, useContext } from 'react';
-import ApplicationContext from "../../store/application-context";
+import ApplicationContext from "../../src/store/application-context";
 import classes from './applications.module.css';
 
 function ApplicationPage1() {

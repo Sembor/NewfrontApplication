@@ -1,6 +1,6 @@
 import App from 'next/app';
 import './styles.css';
-import { ApplicationContextProvider } from '../store/application-context';
+import { ApplicationContextProvider } from '../src/store/application-context';
 
 export default function MyApp({ Component, pageProps }) {
   return (

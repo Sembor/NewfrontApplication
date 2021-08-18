@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
-import ApplicationContext from '../../store/application-context';
+import ApplicationContext from '../../src/store/application-context';
 import classes from './applications.module.css';
 
 const ApplicationPage3 = () => {
